@@ -1,7 +1,7 @@
 /* Type */
 body {
-	color: #4d4d4d;
 	background-color: #3d1666;
+	color: #4d4d4d;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
@@ -18,8 +18,8 @@ h2, h3 {
 }
 
 h3 {
-	font-size: 1.85rem;
 	padding-bottom: 24px;
+	font-size: 1.85rem;
 }
 
 
@@ -44,9 +44,9 @@ img {
 }
 
 .intro__content {
-	color: #fff;
 	padding-top: 180px;
 	padding-bottom: 180px;
+	color: #fff;
 	text-align: center;
 }
 
@@ -59,10 +59,11 @@ img {
 
 /* Skills */
 .skill {
+	margin-bottom: 24px;
+	padding: 24px;
 	background-color: #3d1666;
 	color: #fff;
-	padding: 24px;
-	margin-bottom: 24px;
+	
 }
 
 .skill__title {
@@ -72,8 +73,8 @@ img {
 
 /* Work History */
 .plain {
-	background-color: #fff;
 	padding: 72px 0;
+	background-color: #fff;
 }
 
 .plain__title {
@@ -81,9 +82,9 @@ img {
 }
 
 .plain__title--small {
+	padding-bottom: 0;
 	font-weight: 400;
 	text-align: center;
-	padding-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -97,17 +98,17 @@ img {
 }
 
 .dark {
+	padding: 72px 0;
 	background-image: url("../images/grey-bg.png");
 	background-position: top center;
 	background-attachment: fixed;
 	background-color: #333;
-	padding: 72px 0;
 	color: #fff;
 }
 
 .dark__work-history {
-	font-size: 3rem;
 	padding-bottom: 24px;
+	font-size: 3rem;
 }
 
 .dark__images {
