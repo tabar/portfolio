@@ -44,8 +44,8 @@ img {
 }
 
 .intro__content {
-	padding-top: 180px;
-	padding-bottom: 180px;
+	padding-top: 120px;
+	padding-bottom: 80px;
 	color: #fff;
 	text-align: center;
 }
@@ -69,6 +69,22 @@ img {
 .skill__title {
 	padding-bottom: 24px;
 	text-align: center;
+}
+
+.skill__wrapping {
+	padding-bottom: 110px;
+}
+
+.skill__degree {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+	.skill__degree {
+		padding-top: 0;
+		padding-bottom: 0;
+}
 }
 
 /* Work History */
